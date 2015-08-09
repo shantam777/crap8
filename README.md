@@ -1,5 +1,5 @@
 # crap8
-A crappy and incomplete Chip8 emulator written in C++.
+A crappy and incomplete (and maybe broken as well) Chip8 emulator written in C++.
 
 Sample Output:
 
