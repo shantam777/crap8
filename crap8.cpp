@@ -67,10 +67,10 @@
 		       if(fs.is_open())
 	                  cout<<"\nSuccess\n";
 	           else
-	           cout<<"\nFAIL\n";
+	                  cout<<"\nFAIL\n";
 		       while(fs)
 		       {
-			            fs>>buffer[i];
+			            buffer[i]=fs.get();
 			            i++;
 	           }
 		       fs.close();
